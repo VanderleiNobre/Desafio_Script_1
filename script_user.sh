@@ -26,7 +26,7 @@ passwd debora -e
 useradd sebastiana -m -s /bin/bash -p $(openssl passwd  Senha1234) -G GRP_VEN
 passwd sebastiana -e
 useradd roberto -m -s /bin/bash -p $(openssl passwd  Senha1234) -G GRP_VEN
-passwd reberto -e
+passwd roberto -e
 
 useradd josefina -m -s /bin/bash -p $(openssl passwd Senha1234) -G GRP_SEC
 passwd josefina -e
